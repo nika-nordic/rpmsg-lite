@@ -117,7 +117,6 @@
 #define RL_USE_ENVIRONMENT_CONTEXT (0)
 #endif
 
-
 //! @def RL_DEBUG_CHECK_BUFFERS
 //!
 //! Do not use in RPMsg-Lite to Linux configuration
@@ -125,7 +124,13 @@
 #define RL_DEBUG_CHECK_BUFFERS (0)
 #endif
 
-
+//! @def RL_FORCE_REMOTE_LINK_UP
+//!
+//! Force the remote to set link state as up, without any prior handshake.
+//! The default value is 0 (handshake required).
+#ifndef RL_FORCE_REMOTE_LINK_UP
+#define RL_FORCE_REMOTE_LINK_UP (0)
+#endif
 
 //! @def RL_HANG
 //!
@@ -137,7 +142,6 @@
 
      }
  }
-
 
 //! @def RL_ASSERT
 //!
