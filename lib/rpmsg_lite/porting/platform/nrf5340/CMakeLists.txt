@@ -1,0 +1,1 @@
+zephyr_sources(rpmsg_platform_zephyr_ipm.c)
