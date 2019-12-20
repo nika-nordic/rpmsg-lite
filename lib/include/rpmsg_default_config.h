@@ -33,6 +33,14 @@
 #ifndef _RPMSG_DEFAULT_CONFIG_H
 #define _RPMSG_DEFAULT_CONFIG_H
 
+#ifdef CONFIG_RPMSGLITE_FORCE_REMOTE_LINK_UP
+#define RL_FORCE_REMOTE_LINK_UP (1)
+#endif
+
+#ifdef CONFIG_RPMSGLITE_USE_STATIC_API
+#define RL_USE_STATIC_API (1)
+#endif
+
 /*!
  * @addtogroup config
  * @{
