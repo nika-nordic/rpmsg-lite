@@ -33,12 +33,6 @@
 #ifndef _RPMSG_DEFAULT_CONFIG_H
 #define _RPMSG_DEFAULT_CONFIG_H
 
-#define RL_USE_CUSTOM_CONFIG (1)
-
-#if RL_USE_CUSTOM_CONFIG
-#include "rpmsg_config.h"
-#endif
-
 /*!
  * @addtogroup config
  * @{
